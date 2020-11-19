@@ -1,5 +1,5 @@
 homepage: "https://www.crowdhandler.com"
 documentation: "https://support.crowdhandler.com"
 versions:
-  - sha: 5c755fa3f02cb67df49f2b71084fd74b17cdd95a
+  - sha: e403d51d5eb277bb461127b9f824948b63d9f8b2
     changeNotes: Initial release.
