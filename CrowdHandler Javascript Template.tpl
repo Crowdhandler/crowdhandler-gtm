@@ -14,7 +14,7 @@ ___INFO___
   "version": 1,
   "securityGroups": [],
   "displayName": "CrowdHandler Javascript Template",
-  "categories": ["AFFILIATE_MARKETING", "ADVERTISING"],
+  "categories": ["SALES"],
   "brand": {
     "id": "brand_dummy",
     "displayName": "Javascript Include",
