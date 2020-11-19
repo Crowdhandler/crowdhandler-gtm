@@ -62,8 +62,7 @@ const queryPermission = require('queryPermission');
 const apikey=data.apikey;
 
 const url = 'https://wait.crowdhandler.com/js/latest/main.js?id='+apikey;
-log('url =', url);
-log('data =', data);
+
 const onSuccess = () => {
   data.gtmOnSuccess();
 };
