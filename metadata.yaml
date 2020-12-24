@@ -1,5 +1,5 @@
 homepage: "https://www.crowdhandler.com"
 documentation: "https://support.crowdhandler.com"
 versions:
-  - sha: e403d51d5eb277bb461127b9f824948b63d9f8b2
-    changeNotes: Initial release.
+  - sha: 6fccd4caf812223c2965ca629a5e822885c355ed
+    changeNotes: Added encodeUriComponent.
