@@ -58,10 +58,11 @@ ___SANDBOXED_JS_FOR_WEB_TEMPLATE___
 const log = require('logToConsole');
 const injectScript = require('injectScript');
 const queryPermission = require('queryPermission');
+const encodeUriComponent = require('encodeUriComponent');
 
 const apikey=data.apikey;
 
-const url = 'https://wait.crowdhandler.com/js/latest/main.js?id='+apikey;
+const url = 'https://wait.crowdhandler.com/js/latest/main.js?id='+encodeUriComponent(apikey);
 
 const onSuccess = () => {
   data.gtmOnSuccess();
